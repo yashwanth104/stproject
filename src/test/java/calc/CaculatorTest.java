@@ -33,6 +33,7 @@ public class CaculatorTest {
 	public void testDivByZero() {
 		assertEquals(0, calc.div(3,0));
 	}
+	@Test
 	public void testPwr() {
 		assertEquals(9, calc.pwr(3,2));
 	}
