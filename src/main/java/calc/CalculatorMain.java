@@ -16,8 +16,8 @@ public class CalculatorMain {
 	public int div(int a, int b){
 		return a/b;
 	}
-	/*public int pwr(int a, int b){
+	public int pwr(int a, int b){
 		return (int)Math.pow(3.0,2.0);
-	}*/
+	}
 	
 }
