@@ -33,6 +33,9 @@ public class CaculatorTest {
 	public void testDivByZero() {
 		assertEquals(0, calc.div(3,0));
 	}
+	public void testPwr() {
+		assertEquals(9, calc.pwr(3,2));
+	}
 	@Test
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
