@@ -14,6 +14,9 @@ public class CalculatorMain {
 		return a*b;
 	}
 	public int div(int a, int b){
+		if(b==0)
+			return b;
+		else
 		return a/b;
 	}
 	public int pwr(int a, int b){
